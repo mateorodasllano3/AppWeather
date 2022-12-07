@@ -10,7 +10,7 @@
     background-color: lightskyblue;
     box-shadow: 2px 2px 2px lightgray;
     border-radius: 10%;
-    background-color: transparent;
+    
 
 }
 
@@ -27,11 +27,12 @@ img{
 }
 
 *{
-    background-image: "./img/a0026461_508d3d23cd366-1250x768.jpeg" ;
+    background-image: url("./img/a0026461_508d3d23cd366-1250x768.jpeg") ;
 }
 
 h1,h2,p{
     padding: 0.5rem;
+    background-color: transparent;
 }
 
 .Max-Min{
