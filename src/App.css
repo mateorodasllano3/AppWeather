@@ -1,5 +1,19 @@
-.Card-Weather{
+
+img{
+    width: 50%;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/a0026461_508d3d23cd366-1250x768.jpeg") ;
+    width: auto;
+    height: 100vh
     
+}
+.Card-Weather{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,43 +24,30 @@
     background-color: lightskyblue;
     box-shadow: 2px 2px 2px lightgray;
     border-radius: 10%;
-    
-
-}
-
-img{
-    width: 50%;
-}
-
-.App{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-   
 }
 
 *{
-    background-image: url("./img/a0026461_508d3d23cd366-1250x768.jpeg") ;
+    object-fit: fill;
 }
 
 h1,h2,p{
     padding: 0.5rem;
-    background-color: transparent;
+    background-color:transparent
 }
 
 .Max-Min{
     display: flex;
+    background-color: transparent;
 }
 
 button{
     width: 200px;
     height: 40px;
     font-size: 1rem;
-    background-color: gray;
+    background-color: rgb(35, 179, 250);
     border: 0;
     border-radius:20px;
     margin-top: 1rem;
-    box-shadow: 1px 1px 1px lightgray;
+    box-shadow: 2px 2px 2px lightgray;
     color: white;
 }
