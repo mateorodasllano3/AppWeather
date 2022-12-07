@@ -10,6 +10,8 @@
     background-color: lightskyblue;
     box-shadow: 2px 2px 2px lightgray;
     border-radius: 10%;
+    background-color: transparent;
+
 }
 
 img{
@@ -21,12 +23,11 @@ img{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    background-color: transparent;
-    
+   
 }
 
 *{
-    background-color: aqua;
+    background-image: "./img/a0026461_508d3d23cd366-1250x768.jpeg" ;
 }
 
 h1,h2,p{
