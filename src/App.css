@@ -21,6 +21,10 @@ img{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    
+}
+
+*{
     background-color: aqua;
 }
 
